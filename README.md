@@ -16,16 +16,25 @@ The analysis also applies statistical screening techniques to identify unusually
 - **Database:** MySQL
 - **Primary Analysis Tool:** MySQL Workbench
 
-### Dataset Source & Attribution
+## Dataset Attribution and Licensing
 
-The project uses the Airlines Flights Data dataset created by **Rohit Grewal**.
+This project uses the **Airlines Flights Data** dataset, obtained from Kaggle.
 
-- **Original Dataset:** [Kaggle – Airlines Flights Data](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
-- **Creator:** Rohit Grewal
-- **Database Licence:** [Open Database Licence (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)
-- **Contents Licence:** [Database Contents Licence (DbCL) v1.0](https://opendatacommons.org/licenses/dbcl/1-0/)
+- **Dataset:** [Airlines Flights Data – Kaggle](https://www.kaggle.com/datasets/rohitgrewal/airlines-flights-data)
+- **Dataset creator/uploader:** Rohit Grewal
+- **Database licence:** Open Database License (ODbL) v1.0
+- **Contents licence:** Database Contents License (DbCL) v1.0
 
-The original dataset creator and applicable licences are acknowledged. The dataset is redistributed subject to the applicable licence terms.
+The database is made available under the [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/), and its individual contents are subject to the [DbCL 1.0](https://opendatacommons.org/licenses/dbcl/1-0/).
+
+Local copies of the licence texts are provided in the `LICENSES/` directory:
+
+- `LICENSES/ODbL-1.0.txt`
+- `LICENSES/DbCL-1.0.txt`
+
+The original dataset source is acknowledged. The dataset and any applicable derivative database are subject to the relevant licence conditions, including attribution and share-alike requirements.
+
+**Note:** This project analyses listed ticket prices. Its SQL scripts, analysis and visualisations should not be interpreted as actual airline revenue or confirmed transaction data.
 
 ### Key Variables
 
